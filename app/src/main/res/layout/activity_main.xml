@@ -12,6 +12,6 @@
         android:id="@+id/btnGoToOther"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to "/>
+        android:text="Go to Other"/>
 
 </LinearLayout>

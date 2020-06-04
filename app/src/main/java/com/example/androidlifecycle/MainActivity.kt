@@ -26,4 +26,15 @@ class MainActivity : AppCompatActivity() {
         //화면 이동 후 돌아올 때 onCreate는 실행되지 않지만 onResume을 실행 함=>가려졌다가 다시 나타날 때 실행됨
         Log.d("메인화면","onResume 실행됨")
     }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("메인화면","onPause 실행됨")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+
+        Log.d("메인화면","onDestroy 실행됨")
+    }
 }
