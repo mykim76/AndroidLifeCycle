@@ -6,12 +6,10 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
+    tools:context=".OtherActivity">
     <Button
-        android:id="@+id/btnGoToOther"
+        android:id="@+id/btnGoBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to "/>
-
+        android:text="Go Back"/>
 </LinearLayout>
